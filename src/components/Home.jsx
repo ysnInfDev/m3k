@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className=' bg-neutralSilver' id='home' >
             <div className='px-4 lg:px-14 max-w-screen-exl mx-auto min-h-screen h-screen '>
-                <Carousel className='w-full mx-auto'>
+                <Carousel className=' bg-green-50 w-full mx-auto'>
                     <div className="w-4/6 my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
                         <div >
                             <img src={img1} alt='' />
